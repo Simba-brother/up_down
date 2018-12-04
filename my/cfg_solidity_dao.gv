@@ -1,0 +1,27 @@
+digraph donate{
+initial -> "0";
+"2" -> end;"0" -> "1" [label = "credit[to]"];
+"1" -> "2" [label = "credit[to] += msg.value"];
+
+}
+digraph queryCredit{
+initial -> "0";
+"2" -> end;"2" -> end;"0" -> "1" [label = "credit[to]"];
+"1" -> "2" [label = "return credit[to]"];
+
+}
+digraph withdraw{
+initial -> "0";
+"9" -> end;"0" -> "1" [label = "credit[msg.sender]"];
+"1" -> "2" [label = "credit[msg.sender] >= amount"];
+"2" -> "3" [label = "credit[msg.sender] >= amount == true"];
+"3" -> "4" [label = "credit[msg.sender]"];
+"4" -> "5" [label = "credit[msg.sender] -= amount"];
+"2" -> "8" [label = "credit[msg.sender] >= amount == false"];
+"6" -> "9" [label = "tau"];
+"8" -> "9" [label = "tau"];
+"9" -> throw [label = "msg.sender.call.value(amount)() == false"];
+"5" -> "9" [label = "require(msg.sender.call.value(amount)())"];
+"9" -> "6" [label = "msg.sender.call.value(amount)() == true"];
+
+}

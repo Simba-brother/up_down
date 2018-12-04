@@ -1,0 +1,26 @@
+digraph balanceOf{
+initial -> "0";
+"2" -> end;"2" -> end;"0" -> "1" [label = "balances[_user]"];
+"1" -> "2" [label = "return balances[_user]"];
+
+}
+digraph deposit{
+initial -> "0";
+"2" -> end;"0" -> "1" [label = "balances[msg.sender]"];
+"1" -> "2" [label = "balances[msg.sender] += msg.value"];
+
+}
+digraph withdraw{
+initial -> "0";
+"9" -> end;"0" -> "1" [label = "balances[msg.sender]"];
+"1" -> "2" [label = "balances[msg.sender] - _amount"];
+"2" -> "3" [label = "balances[msg.sender] - _amount > 0"];
+"4" -> ""6" : transfer(_amount)" [label = "uponEntry(transfer(_amount))"];
+""6" : transfer(_amount)" -> "6" [label = "uponExit(transfer(_amount))"];
+"6" -> "8" [label = "balances[msg.sender]"];
+"8" -> "9" [label = "balances[msg.sender] -= _amount"];
+"9" -> throw [label = "balances[msg.sender] - _amount > 0 == false"];
+"3" -> "9" [label = "require(balances[msg.sender] - _amount > 0)"];
+"9" -> "4" [label = "balances[msg.sender] - _amount > 0 == true"];
+
+}
