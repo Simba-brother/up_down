@@ -1,17 +1,13 @@
+pragma solidity ^0.4.10;
 
-pragma solidity 0.4.24;
-
-contract OverflowVulnerableAndFixed {
-	
-	mapping (address => uint256) public balanceOf;
-
-	function transfer1(address _to, uint256 _value) public {
-
-	    require(balanceOf[msg.sender] >= _value);
-
-	    balanceOf[msg.sender] -= _value;
-	    balanceOf[_to] += _value;
-	}
-
+contract MyToken {
+    mapping (address => uint) balances;
+    function withdraw(uint _amount) {
+        require(balances[msg.sender]  > _amount);  // 存在整数溢出
+        msg.sender.transfer(_amount);
+        balances[msg.sender] -= _amount;
+    }    
+    function balanceOf(address _user) returns (uint) { return balances[_user]; }
+    function deposit() payable { balances[msg.sender] += msg.value; }
+    
 }
-

@@ -15,13 +15,13 @@ initial -> "0";
 "9" -> end;"0" -> "1" [label = "credit[msg.sender]"];
 "1" -> "2" [label = "credit[msg.sender] >= amount"];
 "2" -> "3" [label = "credit[msg.sender] >= amount == true"];
-"3" -> "4" [label = "credit[msg.sender]"];
-"4" -> "5" [label = "credit[msg.sender] -= amount"];
+"4" -> "6" [label = "credit[msg.sender]"];
+"6" -> "7" [label = "credit[msg.sender] -= amount"];
 "2" -> "8" [label = "credit[msg.sender] >= amount == false"];
-"6" -> "9" [label = "tau"];
+"7" -> "9" [label = "tau"];
 "8" -> "9" [label = "tau"];
 "9" -> throw [label = "msg.sender.call.value(amount)() == false"];
-"5" -> "9" [label = "require(msg.sender.call.value(amount)())"];
-"9" -> "6" [label = "msg.sender.call.value(amount)() == true"];
+"3" -> "9" [label = "require(msg.sender.call.value(amount)())"];
+"9" -> "4" [label = "msg.sender.call.value(amount)() == true"];
 
 }

@@ -1,0 +1,19 @@
+digraph KotET{
+initial -> "0";
+"1" -> end;"0" -> "1" [label = "owener = msg.sender"];
+
+}
+digraph withdraw{
+initial -> "0";
+"8" -> end;"0" -> "1" [label = "balances[msg.sender]"];
+"1" -> "2" [label = "balances[msg.sender] >= _amount"];
+"3" -> "5" [label = "balances[msg.sender]"];
+"5" -> "6" [label = "balances[msg.sender] -= _amount"];
+"6" -> "7" [label = "etherLeft -= _amount"];
+"7" -> ""8" : send(_amount)" [label = "uponEntry(send(_amount))"];
+""8" : send(_amount)" -> "8" [label = "uponExit(send(_amount))"];
+"9" -> throw [label = "balances[msg.sender] >= _amount == false"];
+"2" -> "9" [label = "require(balances[msg.sender] >= _amount)"];
+"9" -> "3" [label = "balances[msg.sender] >= _amount == true"];
+
+}

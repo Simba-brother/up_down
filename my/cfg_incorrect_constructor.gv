@@ -1,0 +1,21 @@
+digraph missing{
+initial -> "0";
+"1" -> end;"0" -> "1" [label = "owner = msg.sender"];
+
+}
+digraph fallbackfunction{
+initial -> "0";
+"0" -> end;
+}
+digraph withdraw{
+initial -> "0";
+"4" -> end;"0" -> "1" [label = "msg.sender == owner"];
+"onlyowner00" -> ""onlyowner01" : transfer(this.balance)" [label = "uponEntry(transfer(this.balance))"];
+""onlyowner01" : transfer(this.balance)" -> "onlyowner01" [label = "uponExit(transfer(this.balance))"];
+"2" -> "onlyowner00" [label = "tau"];
+"onlyowner01" -> "4" [label = "tau"];
+"7" -> throw [label = "msg.sender == owner == false"];
+"1" -> "7" [label = "require(msg.sender == owner)"];
+"7" -> "2" [label = "msg.sender == owner == true"];
+
+}

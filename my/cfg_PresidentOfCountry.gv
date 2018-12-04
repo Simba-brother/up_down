@@ -1,0 +1,23 @@
+digraph PresidentOfCountry{
+initial -> "0";
+"5" -> end;"0" -> "1" [label = "_price > 0"];
+"2" -> "4" [label = "price = _price"];
+"4" -> "5" [label = "president = msg.sender"];
+"5" -> throw [label = "_price > 0 == false"];
+"1" -> "5" [label = "require(_price > 0)"];
+"5" -> "2" [label = "_price > 0 == true"];
+
+}
+digraph becomePresident{
+initial -> "0";
+"8" -> end;"0" -> "1" [label = "msg.value >= price"];
+"2" -> ""4" : transfer(price)" [label = "uponEntry(transfer(price))"];
+""4" : transfer(price)" -> "4" [label = "uponExit(transfer(price))"];
+"4" -> "6" [label = "president = msg.sender"];
+"6" -> "7" [label = "price * 2"];
+"7" -> "8" [label = "price = price * 2"];
+"8" -> throw [label = "msg.value >= price == false"];
+"1" -> "8" [label = "require(msg.value >= price)"];
+"8" -> "2" [label = "msg.value >= price == true"];
+
+}

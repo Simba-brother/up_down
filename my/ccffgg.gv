@@ -1,6 +1,0 @@
-digraph update{
-initial -> "0";
-"2" -> end;"2" -> end;"0" -> "1" [label = "balance += amount"];
-"1" -> "2" [label = "return (msg.sender, balance)"];
-
-}
