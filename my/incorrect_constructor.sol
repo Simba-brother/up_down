@@ -1,4 +1,4 @@
-pragma solidity 0.4.24;
+pragma solidity ^0.4.10;
 
 contract Missing{
     address private owner;
@@ -8,17 +8,14 @@ contract Missing{
         _;
     }
     
-    function missing()
-        public 
+    function missing() public 
     {
         owner = msg.sender;
     }
 
     function () payable {} 
 
-    function withdraw() 
-        public 
-        onlyowner
+    function withdraw() public onlyowner
     {
        owner.transfer(this.balance);
     }
