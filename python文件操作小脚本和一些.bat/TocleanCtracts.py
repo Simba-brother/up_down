@@ -2,7 +2,7 @@
 #__*__ coding: utf-8 __*__
 import os
 global val  #在使用前初次声明
-val = 10234    #给全局变量赋值
+val = 1    #给全局变量赋值
 def fileParse(filepath):
     LineNumber = 1 #将pragma所在的那么一行视为第一行，也就是截取之后的第一行
     global val
@@ -14,6 +14,7 @@ def fileParse(filepath):
                  f2.write(line[5:])
             else:
                 f2.write(line)
+            LineNumber = LineNumber+1
     val=val+1
     f.close()
 def eachFile(filepath):
@@ -40,5 +41,5 @@ def eachFile(filepath):
 
 if __name__ == "__main__":
 
-    eachFile("E:\\afterCleanContracts7001_10000\\")
+    eachFile("E://test//test")
     
