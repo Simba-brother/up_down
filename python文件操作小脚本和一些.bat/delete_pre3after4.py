@@ -7,7 +7,7 @@ def fileParse(filepath):
     global val
     f=open(filepath, 'rb')
     
-    with open('E://afterCleanContracts//'+'out' + str(val)+'.sol','wb') as f2:
+    with open('E://afterCleanContracts//'+'out' + str(val)+'.sol','rb') as f2:
         for line in f.readlines()[3:len(f.readlines())-4]:
             f2.write(line)
     val=val+1
