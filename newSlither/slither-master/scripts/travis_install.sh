@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+# TODO: temporary until the next crytic-compile release
+git clone https://github.com/crytic/crytic-compile
+cd crytic-compile
+git checkout dev
+python setup.py install
+cd ..
+
+python setup.py install
+# Used by travis_test.sh
+pip install deepdiff
+
+function install_solc {
+    sudo wget -O /usr/bin/solc-0.4.25 https://github.com/ethereum/solidity/releases/download/v0.4.25/solc-static-linux
+    sudo chmod +x /usr/bin/solc-0.4.25
+    sudo wget -O /usr/bin/solc-0.5.1 https://github.com/ethereum/solidity/releases/download/v0.5.1/solc-static-linux
+    sudo chmod +x /usr/bin/solc-0.5.1
+    sudo wget -O /usr/bin/solc-0.5.0 https://github.com/ethereum/solidity/releases/download/v0.5.0/solc-static-linux
+    sudo chmod +x /usr/bin/solc-0.5.0
+
+    sudo cp /usr/bin/solc-0.5.1 /usr/bin/solc
+}
+
+install_solc
+
