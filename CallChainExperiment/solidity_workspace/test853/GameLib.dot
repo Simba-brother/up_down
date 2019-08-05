@@ -1,0 +1,50 @@
+strict digraph {
+subgraph cluster_1382_GameLib {
+label = "GameLib"
+"1382_init(GameLib.Game,uint256) returns()" [label="init(GameLib.Game,uint256) returns()"]
+"1382_playerDecision(GameLib.Game,GameLib.GameState) returns()" [label="playerDecision(GameLib.Game,GameLib.GameState) returns()"]
+"1382_payoutForResult(GameLib.GameResult,uint256) returns(uint256)" [label="payoutForResult(GameLib.GameResult,uint256) returns(uint256)"]
+"1382_tick(GameLib.Game) returns(bool)" [label="tick(GameLib.Game) returns(bool)"]
+"1382_canDoubleDown(GameLib.Game) returns(bool)" [label="canDoubleDown(GameLib.Game) returns(bool)"]
+"1382_countHand(uint8[]) returns(uint8)" [label="countHand(uint8[]) returns(uint8)"]
+"1382_bestSum(uint8[]) returns(uint8)" [label="bestSum(uint8[]) returns(uint8)"]
+"1382_needsTick(GameLib.Game) returns(bool)" [label="needsTick(GameLib.Game) returns(bool)"]
+"1382_appendArray(uint8[],uint8) returns(uint8[])" [label="appendArray(uint8[],uint8) returns(uint8[])"]
+"1382_closeGame(GameLib.Game) returns()" [label="closeGame(GameLib.Game) returns()"]
+"1382_dealHitCard(GameLib.Game) returns()" [label="dealHitCard(GameLib.Game) returns()"]
+"1382_forceStand(GameLib.Game) returns()" [label="forceStand(GameLib.Game) returns()"]
+"1382_checkGameResult(GameLib.Game) returns()" [label="checkGameResult(GameLib.Game) returns()"]
+"1382_dealHouseCards(GameLib.Game) returns()" [label="dealHouseCards(GameLib.Game) returns()"]
+"1382_compareHands(uint8,uint8) returns(GameLib.ComparaisonResult)" [label="compareHands(uint8,uint8) returns(GameLib.ComparaisonResult)"]
+"1382_endGame(GameLib.Game,GameLib.GameResult) returns()" [label="endGame(GameLib.Game,GameLib.GameResult) returns()"]
+"1382_dealInitialCards(GameLib.Game) returns()" [label="dealInitialCards(GameLib.Game) returns()"]
+"1382_checkGameContinues(GameLib.Game) returns()" [label="checkGameContinues(GameLib.Game) returns()"]
+"1382_endGame(GameLib.Game,GameLib.GameResult) returns()" -> "1382_payoutForResult(GameLib.GameResult,uint256) returns(uint256)"
+"1382_checkGameContinues(GameLib.Game) returns()" -> "1382_countHand(uint8[]) returns(uint8)"
+"1382_checkGameResult(GameLib.Game) returns()" -> "1382_compareHands(uint8,uint8) returns(GameLib.ComparaisonResult)"
+"1382_dealHouseCards(GameLib.Game) returns()" -> "1382_countHand(uint8[]) returns(uint8)"
+"1382_checkGameResult(GameLib.Game) returns()" -> "1382_countHand(uint8[]) returns(uint8)"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_dealHouseCards(GameLib.Game) returns()"
+"1382_canDoubleDown(GameLib.Game) returns(bool)" -> "1382_countHand(uint8[]) returns(uint8)"
+"1382_countHand(uint8[]) returns(uint8)" -> "1382_appendArray(uint8[],uint8) returns(uint8[])"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_endGame(GameLib.Game,GameLib.GameResult) returns()"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_dealInitialCards(GameLib.Game) returns()"
+"1382_checkGameContinues(GameLib.Game) returns()" -> "1382_tick(GameLib.Game) returns(bool)"
+"1382_checkGameResult(GameLib.Game) returns()" -> "1382_endGame(GameLib.Game,GameLib.GameResult) returns()"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_dealHitCard(GameLib.Game) returns()"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_forceStand(GameLib.Game) returns()"
+"1382_bestSum(uint8[]) returns(uint8)" -> "1382_compareHands(uint8,uint8) returns(GameLib.ComparaisonResult)"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_needsTick(GameLib.Game) returns(bool)"
+"1382_checkGameContinues(GameLib.Game) returns()" -> "1382_endGame(GameLib.Game,GameLib.GameResult) returns()"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_canDoubleDown(GameLib.Game) returns(bool)"
+"1382_forceStand(GameLib.Game) returns()" -> "1382_playerDecision(GameLib.Game,GameLib.GameState) returns()"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_checkGameResult(GameLib.Game) returns()"
+"1382_countHand(uint8[]) returns(uint8)" -> "1382_bestSum(uint8[]) returns(uint8)"
+"1382_endGame(GameLib.Game,GameLib.GameResult) returns()" -> "1382_closeGame(GameLib.Game) returns()"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_checkGameContinues(GameLib.Game) returns()"
+"1382_dealHouseCards(GameLib.Game) returns()" -> "1382_dealHouseCards(GameLib.Game) returns()"
+"1382_checkGameContinues(GameLib.Game) returns()" -> "1382_forceStand(GameLib.Game) returns()"
+}subgraph cluster_solidity {
+label = "[Solidity]"
+}
+}

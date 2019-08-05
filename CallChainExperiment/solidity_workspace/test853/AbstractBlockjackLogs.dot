@@ -1,0 +1,9 @@
+strict digraph {
+subgraph cluster_406_AbstractBlockjackLogs {
+label = "AbstractBlockjackLogs"
+"406_recordLog(uint256,address,uint256,uint256,uint8,uint8) returns()" [label="recordLog(uint256,address,uint256,uint256,uint8,uint8) returns()"]
+"406_tickRequiredLog(uint256,address,uint256) returns()" [label="tickRequiredLog(uint256,address,uint256) returns()"]
+}subgraph cluster_solidity {
+label = "[Solidity]"
+}
+}

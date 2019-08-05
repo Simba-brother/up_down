@@ -1,0 +1,41 @@
+strict digraph {
+subgraph cluster_2251_Blockjack {
+label = "Blockjack"
+"2251_setupTrustedAccounts() returns()" [label="setupTrustedAccounts() returns()"]
+"2251_removeOwner(address) returns()" [label="removeOwner(address) returns()"]
+"2251_hit(uint256) returns()" [label="hit(uint256) returns()"]
+"2251_Blockjack(address,address) returns()" [label="Blockjack(address,address) returns()"]
+"2251_doubleDown(uint256) returns()" [label="doubleDown(uint256) returns()"]
+"2251_startGame() returns()" [label="startGame() returns()"]
+"2251_registerOwner(address) returns()" [label="registerOwner(address) returns()"]
+"2251_addBankroll() returns()" [label="addBankroll() returns()"]
+"2251_changeAdminContract(address) returns()" [label="changeAdminContract(address) returns()"]
+"2251_tickRequiredLog(GameLib.Game) returns()" [label="tickRequiredLog(GameLib.Game) returns()"]
+"2251_stopBlockjack() returns()" [label="stopBlockjack() returns()"]
+"2251_stand(uint256) returns()" [label="stand(uint256) returns()"]
+"2251_gameTick(uint256) returns()" [label="gameTick(uint256) returns()"]
+"2251_recordEndedGame(uint256) returns()" [label="recordEndedGame(uint256) returns()"]
+"2251_gameState(uint256) returns(uint8[],uint8[],uint8,uint8,uint256,uint256,uint8,uint8,bool,uint256)" [label="gameState(uint256) returns(uint8[],uint8[],uint8,uint8,uint256,uint256,uint8,uint8,bool,uint256)"]
+"2251_remainingBankroll() returns(uint256)" [label="remainingBankroll() returns(uint256)"]
+"2251_changeDX(address) returns()" [label="changeDX(address) returns()"]
+"2251_removeBankroll() returns()" [label="removeBankroll() returns()"]
+"2251_shareProfits() returns()" [label="shareProfits() returns()"]
+"2251_startBlockjack() returns()" [label="startBlockjack() returns()"]
+"2251_migrateBlockjack() returns()" [label="migrateBlockjack() returns()"]
+"2251_fallback() returns()" [label="fallback() returns()"]
+"2251_setSettings(uint256,uint256,uint256) returns()" [label="setSettings(uint256,uint256,uint256) returns()"]
+"2251_changeDev(address) returns()" [label="changeDev(address) returns()"]
+"2251_doubleDown(uint256) returns()" -> "2251_tickRequiredLog(GameLib.Game) returns()"
+"2251_migrateBlockjack() returns()" -> "2251_stopBlockjack() returns()"
+"2251_fallback() returns()" -> "2251_startGame() returns()"
+"2251_gameTick(uint256) returns()" -> "2251_recordEndedGame(uint256) returns()"
+"2251_startGame() returns()" -> "2251_tickRequiredLog(GameLib.Game) returns()"
+"2251_removeBankroll() returns()" -> "2251_stopBlockjack() returns()"
+"2251_Blockjack(address,address) returns()" -> "2251_setupTrustedAccounts() returns()"
+"2251_startGame() returns()" -> "2251_recordEndedGame(uint256) returns()"
+"2251_stand(uint256) returns()" -> "2251_tickRequiredLog(GameLib.Game) returns()"
+"2251_hit(uint256) returns()" -> "2251_tickRequiredLog(GameLib.Game) returns()"
+}subgraph cluster_solidity {
+label = "[Solidity]"
+}
+}

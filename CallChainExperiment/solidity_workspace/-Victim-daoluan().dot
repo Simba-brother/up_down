@@ -1,0 +1,50 @@
+digraph{
+0[label="Node Type: ENTRY_POINT 0
+"];
+0->1;
+1[label="Node Type: IF 1
+
+EXPRESSION:
+state_a > 5
+
+IRs:
+TMP_0(bool) = state_a > 5
+CONDITION TMP_0"];
+1->2;
+1->5;
+2[label="Node Type: EXPRESSION 2
+
+EXPRESSION:
+state_a = state_a - 1
+
+IRs:
+TMP_1(uint256) = state_a - 1
+state_a(uint256) := TMP_1(uint256)"];
+2->3;
+3[label="Node Type: EXPRESSION 3
+
+EXPRESSION:
+msg.sender.send(10)
+
+IRs:
+TMP_3 = SEND dest:msg.sender value:10"];
+3->4;
+4[label="Node Type: EXPRESSION 4
+
+EXPRESSION:
+erc20.ma()
+
+IRs:
+HIGH_LEVEL_CALL, dest:erc20(ERC20), function:ma, arguments:[]  "];
+4->5;
+5[label="Node Type: END_IF 5
+"];
+5->6;
+6[label="Node Type: NEW VARIABLE 6
+
+EXPRESSION:
+b = 10
+
+IRs:
+b(uint256) := 10(uint256)"];
+}

@@ -1,0 +1,13 @@
+digraph{
+0[label="Node Type: ENTRY_POINT 0
+"];
+0->1;
+1[label="Node Type: EXPRESSION 1
+
+EXPRESSION:
+erc20 = ERC20(_addr)
+
+IRs:
+TMP_9 = CONVERT _addr to ERC20
+erc20(ERC20) := TMP_9(ERC20)"];
+}

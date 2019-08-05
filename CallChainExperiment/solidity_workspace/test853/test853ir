@@ -1,0 +1,125 @@
+Contract ArrayLib
+	Function ArrayLib.insertInPlace(uint8[],uint8)
+		Expression: insertingIndex = 0
+		IRs:
+			insertingIndex(uint8) := 0(uint256)
+		Expression: self.length > 0 && insertingIndex < self.length && self[insertingIndex] < n
+		IRs:
+			REF_0 -> LENGTH self
+			TMP_0(bool) = REF_0 > 0
+			REF_1 -> LENGTH self
+			TMP_1(bool) = insertingIndex < REF_1
+			TMP_2(bool) = TMP_0 && TMP_1
+			REF_2(uint8) -> self[insertingIndex]
+			TMP_3(bool) = REF_2 < n
+			TMP_4(bool) = TMP_2 && TMP_3
+			CONDITION TMP_4
+		Expression: insertingIndex += 1
+		IRs:
+			insertingIndex(uint8) = insertingIndex + 1
+		Expression: self.length += 1
+		IRs:
+			REF_3 -> LENGTH self
+			REF_3(-> self) = REF_3 + 1
+		Expression: i = uint8(self.length) - 1
+		IRs:
+			REF_4 -> LENGTH self
+			TMP_5 = CONVERT REF_4 to uint8
+			TMP_6(uint8) = TMP_5 - 1
+			i(uint8) := TMP_6(uint8)
+		Expression: i > insertingIndex
+		IRs:
+			TMP_7(bool) = i > insertingIndex
+			CONDITION TMP_7
+		Expression: self[i] = self[i - 1]
+		IRs:
+			REF_5(uint8) -> self[i]
+			TMP_8(uint8) = i - 1
+			REF_6(uint8) -> self[TMP_8]
+			REF_5 (->self) := REF_6(uint8)
+		Expression: i --
+		IRs:
+			TMP_9(uint8) := i(uint8)
+			i(uint8) = i - 1
+		Expression: self[insertingIndex] = n
+		IRs:
+			REF_7(uint8) -> self[insertingIndex]
+			REF_7 (->self) := n(uint8)
+Contract DeckLib
+	Function DeckLib.init(DeckLib.Deck,uint256)
+		Expression: self.usedCards = new uint8[](0)
+		IRs:
+			REF_8(uint8[]) -> self.usedCards
+			TMP_12 = new uint8[](0)
+			REF_8 (->self) := TMP_12(uint8)
+		Expression: self.player = msg.sender
+		IRs:
+			REF_9(address) -> self.player
+			REF_9 (->self) := msg.sender(address)
+		Expression: self.gameID = gameID
+		IRs:
+			REF_10(uint256) -> self.gameID
+			REF_10 (->self) := gameID(uint256)
+	Function DeckLib.getCard(DeckLib.Deck,uint256)
+		Expression: cardIndex = self.usedCards.length
+		IRs:
+			REF_11(uint8[]) -> self.usedCards
+			REF_12 -> LENGTH REF_11
+			cardIndex(uint256) := REF_12(uint256)
+		Expression: cardIndex >= totalCards
+		IRs:
+			TMP_13(bool) = cardIndex >= totalCards
+			CONDITION TMP_13
+		Expression: r = uint8(getRandomNumber(blockNumber,self.player,self.gameID,cardIndex,totalCards - cardIndex))
+		IRs:
+			REF_13(address) -> self.player
+			REF_14(uint256) -> self.gameID
+			TMP_14(uint8) = totalCards - cardIndex
+			TMP_15(uint256) = INTERNAL_CALL, DeckLib.getRandomNumber(uint256,address,uint256,uint256,uint256)(blockNumber,REF_13,REF_14,cardIndex,TMP_14)
+			TMP_16 = CONVERT TMP_15 to uint8
+			r(uint8) := TMP_16(uint8)
+		Expression: i = 0
+		IRs:
+			i(uint8) := 0(uint256)
+		Expression: i < cardIndex
+		IRs:
+			TMP_17(bool) = i < cardIndex
+			CONDITION TMP_17
+		Expression: self.usedCards[i] <= r
+		IRs:
+			REF_15(uint8[]) -> self.usedCards
+			REF_16(uint8) -> REF_15[i]
+			TMP_18(bool) = REF_16 <= r
+			CONDITION TMP_18
+		Expression: r += 1
+		IRs:
+			r(uint8) = r + 1
+		Expression: i ++
+		IRs:
+			TMP_19(uint8) := i(uint8)
+			i(uint8) = i + 1
+		Expression: self.usedCards.insertInPlace(r)
+		IRs:
+			REF_17(uint8[]) -> self.usedCards
+			LIBRARY_CALL, dest:ArrayLib, function:insertInPlace, arguments:['REF_17', 'r'] 
+		Expression: r
+		IRs:
+			RETURN r
+	Function DeckLib.cardDescription(uint8)
+		Expression: (DeckLib.Suit(self / cardsPerSuit),cardFacevalue(self))
+		IRs:
+			TMP_22(uint8) = self / cardsPerSuit
+			TMP_23 = CONVERT TMP_22 to DeckLib.Suit
+			TMP_24(uint8) = INTERNAL_CALL, DeckLib.cardFacevalue(uint8)(self)
+			RETURN TMP_23,TMP_24
+	Function DeckLib.cardEmojified(uint8)
+		Expression: (suit,number) = cardDescription(self)
+		IRs:
+			TUPLE_0(DeckLib.Suit,uint8) = INTERNAL_CALL, DeckLib.cardDescription(uint8)(self)
+			suit(DeckLib.Suit)= UNPACK TUPLE_0 index: 0 
+			number(uint8)= UNPACK TUPLE_0 index: 1 
+		Expression: suit == Suit.Clubs
+		IRs:
+			REF_19(DeckLib.Suit) -> Suit.Clubs
+			TMP_25(bool) = suit == REF_19
+			CONDITION TMP_25

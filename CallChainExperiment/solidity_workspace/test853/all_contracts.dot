@@ -1,0 +1,107 @@
+strict digraph {
+subgraph cluster_1382_GameLib {
+label = "GameLib"
+"1382_init(GameLib.Game,uint256) returns()" [label="init(GameLib.Game,uint256) returns()"]
+"1382_playerDecision(GameLib.Game,GameLib.GameState) returns()" [label="playerDecision(GameLib.Game,GameLib.GameState) returns()"]
+"1382_payoutForResult(GameLib.GameResult,uint256) returns(uint256)" [label="payoutForResult(GameLib.GameResult,uint256) returns(uint256)"]
+"1382_tick(GameLib.Game) returns(bool)" [label="tick(GameLib.Game) returns(bool)"]
+"1382_canDoubleDown(GameLib.Game) returns(bool)" [label="canDoubleDown(GameLib.Game) returns(bool)"]
+"1382_countHand(uint8[]) returns(uint8)" [label="countHand(uint8[]) returns(uint8)"]
+"1382_bestSum(uint8[]) returns(uint8)" [label="bestSum(uint8[]) returns(uint8)"]
+"1382_needsTick(GameLib.Game) returns(bool)" [label="needsTick(GameLib.Game) returns(bool)"]
+"1382_appendArray(uint8[],uint8) returns(uint8[])" [label="appendArray(uint8[],uint8) returns(uint8[])"]
+"1382_closeGame(GameLib.Game) returns()" [label="closeGame(GameLib.Game) returns()"]
+"1382_dealHitCard(GameLib.Game) returns()" [label="dealHitCard(GameLib.Game) returns()"]
+"1382_forceStand(GameLib.Game) returns()" [label="forceStand(GameLib.Game) returns()"]
+"1382_checkGameResult(GameLib.Game) returns()" [label="checkGameResult(GameLib.Game) returns()"]
+"1382_dealHouseCards(GameLib.Game) returns()" [label="dealHouseCards(GameLib.Game) returns()"]
+"1382_compareHands(uint8,uint8) returns(GameLib.ComparaisonResult)" [label="compareHands(uint8,uint8) returns(GameLib.ComparaisonResult)"]
+"1382_endGame(GameLib.Game,GameLib.GameResult) returns()" [label="endGame(GameLib.Game,GameLib.GameResult) returns()"]
+"1382_dealInitialCards(GameLib.Game) returns()" [label="dealInitialCards(GameLib.Game) returns()"]
+"1382_checkGameContinues(GameLib.Game) returns()" [label="checkGameContinues(GameLib.Game) returns()"]
+"1382_endGame(GameLib.Game,GameLib.GameResult) returns()" -> "1382_payoutForResult(GameLib.GameResult,uint256) returns(uint256)"
+"1382_checkGameContinues(GameLib.Game) returns()" -> "1382_countHand(uint8[]) returns(uint8)"
+"1382_checkGameResult(GameLib.Game) returns()" -> "1382_compareHands(uint8,uint8) returns(GameLib.ComparaisonResult)"
+"1382_dealHouseCards(GameLib.Game) returns()" -> "1382_countHand(uint8[]) returns(uint8)"
+"1382_checkGameResult(GameLib.Game) returns()" -> "1382_countHand(uint8[]) returns(uint8)"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_dealHouseCards(GameLib.Game) returns()"
+"1382_canDoubleDown(GameLib.Game) returns(bool)" -> "1382_countHand(uint8[]) returns(uint8)"
+"1382_countHand(uint8[]) returns(uint8)" -> "1382_appendArray(uint8[],uint8) returns(uint8[])"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_endGame(GameLib.Game,GameLib.GameResult) returns()"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_dealInitialCards(GameLib.Game) returns()"
+"1382_checkGameContinues(GameLib.Game) returns()" -> "1382_tick(GameLib.Game) returns(bool)"
+"1382_checkGameResult(GameLib.Game) returns()" -> "1382_endGame(GameLib.Game,GameLib.GameResult) returns()"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_dealHitCard(GameLib.Game) returns()"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_forceStand(GameLib.Game) returns()"
+"1382_bestSum(uint8[]) returns(uint8)" -> "1382_compareHands(uint8,uint8) returns(GameLib.ComparaisonResult)"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_needsTick(GameLib.Game) returns(bool)"
+"1382_checkGameContinues(GameLib.Game) returns()" -> "1382_endGame(GameLib.Game,GameLib.GameResult) returns()"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_canDoubleDown(GameLib.Game) returns(bool)"
+"1382_forceStand(GameLib.Game) returns()" -> "1382_playerDecision(GameLib.Game,GameLib.GameState) returns()"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_checkGameResult(GameLib.Game) returns()"
+"1382_countHand(uint8[]) returns(uint8)" -> "1382_bestSum(uint8[]) returns(uint8)"
+"1382_endGame(GameLib.Game,GameLib.GameResult) returns()" -> "1382_closeGame(GameLib.Game) returns()"
+"1382_tick(GameLib.Game) returns(bool)" -> "1382_checkGameContinues(GameLib.Game) returns()"
+"1382_dealHouseCards(GameLib.Game) returns()" -> "1382_dealHouseCards(GameLib.Game) returns()"
+"1382_checkGameContinues(GameLib.Game) returns()" -> "1382_forceStand(GameLib.Game) returns()"
+}subgraph cluster_359_DeckLib {
+label = "DeckLib"
+"359_getCard(DeckLib.Deck,uint256) returns(uint8)" [label="getCard(DeckLib.Deck,uint256) returns(uint8)"]
+"359_cardFacevalue(uint8) returns(uint8)" [label="cardFacevalue(uint8) returns(uint8)"]
+"359_getRandomNumber(uint256,address,uint256,uint256,uint256) returns(uint256)" [label="getRandomNumber(uint256,address,uint256,uint256,uint256) returns(uint256)"]
+"359_cardDescription(uint8) returns(DeckLib.Suit,uint8)" [label="cardDescription(uint8) returns(DeckLib.Suit,uint8)"]
+"359_cardEmojified(uint8) returns(uint8,string)" [label="cardEmojified(uint8) returns(uint8,string)"]
+"359_blackjackValue(uint8) returns(uint8)" [label="blackjackValue(uint8) returns(uint8)"]
+"359_init(DeckLib.Deck,uint256) returns()" [label="init(DeckLib.Deck,uint256) returns()"]
+"359_cardDescription(uint8) returns(DeckLib.Suit,uint8)" -> "359_cardFacevalue(uint8) returns(uint8)"
+"359_cardEmojified(uint8) returns(uint8,string)" -> "359_cardDescription(uint8) returns(DeckLib.Suit,uint8)"
+"359_getCard(DeckLib.Deck,uint256) returns(uint8)" -> "359_getRandomNumber(uint256,address,uint256,uint256,uint256) returns(uint256)"
+"359_blackjackValue(uint8) returns(uint8)" -> "359_cardFacevalue(uint8) returns(uint8)"
+}subgraph cluster_74_ArrayLib {
+label = "ArrayLib"
+"74_insertInPlace(uint8[],uint8) returns()" [label="insertInPlace(uint8[],uint8) returns()"]
+}subgraph cluster_2251_Blockjack {
+label = "Blockjack"
+"2251_setupTrustedAccounts() returns()" [label="setupTrustedAccounts() returns()"]
+"2251_removeOwner(address) returns()" [label="removeOwner(address) returns()"]
+"2251_hit(uint256) returns()" [label="hit(uint256) returns()"]
+"2251_Blockjack(address,address) returns()" [label="Blockjack(address,address) returns()"]
+"2251_doubleDown(uint256) returns()" [label="doubleDown(uint256) returns()"]
+"2251_startGame() returns()" [label="startGame() returns()"]
+"2251_registerOwner(address) returns()" [label="registerOwner(address) returns()"]
+"2251_addBankroll() returns()" [label="addBankroll() returns()"]
+"2251_changeAdminContract(address) returns()" [label="changeAdminContract(address) returns()"]
+"2251_tickRequiredLog(GameLib.Game) returns()" [label="tickRequiredLog(GameLib.Game) returns()"]
+"2251_stopBlockjack() returns()" [label="stopBlockjack() returns()"]
+"2251_stand(uint256) returns()" [label="stand(uint256) returns()"]
+"2251_gameTick(uint256) returns()" [label="gameTick(uint256) returns()"]
+"2251_recordEndedGame(uint256) returns()" [label="recordEndedGame(uint256) returns()"]
+"2251_gameState(uint256) returns(uint8[],uint8[],uint8,uint8,uint256,uint256,uint8,uint8,bool,uint256)" [label="gameState(uint256) returns(uint8[],uint8[],uint8,uint8,uint256,uint256,uint8,uint8,bool,uint256)"]
+"2251_remainingBankroll() returns(uint256)" [label="remainingBankroll() returns(uint256)"]
+"2251_changeDX(address) returns()" [label="changeDX(address) returns()"]
+"2251_removeBankroll() returns()" [label="removeBankroll() returns()"]
+"2251_shareProfits() returns()" [label="shareProfits() returns()"]
+"2251_startBlockjack() returns()" [label="startBlockjack() returns()"]
+"2251_migrateBlockjack() returns()" [label="migrateBlockjack() returns()"]
+"2251_fallback() returns()" [label="fallback() returns()"]
+"2251_setSettings(uint256,uint256,uint256) returns()" [label="setSettings(uint256,uint256,uint256) returns()"]
+"2251_changeDev(address) returns()" [label="changeDev(address) returns()"]
+"2251_doubleDown(uint256) returns()" -> "2251_tickRequiredLog(GameLib.Game) returns()"
+"2251_migrateBlockjack() returns()" -> "2251_stopBlockjack() returns()"
+"2251_fallback() returns()" -> "2251_startGame() returns()"
+"2251_gameTick(uint256) returns()" -> "2251_recordEndedGame(uint256) returns()"
+"2251_startGame() returns()" -> "2251_tickRequiredLog(GameLib.Game) returns()"
+"2251_removeBankroll() returns()" -> "2251_stopBlockjack() returns()"
+"2251_Blockjack(address,address) returns()" -> "2251_setupTrustedAccounts() returns()"
+"2251_startGame() returns()" -> "2251_recordEndedGame(uint256) returns()"
+"2251_stand(uint256) returns()" -> "2251_tickRequiredLog(GameLib.Game) returns()"
+"2251_hit(uint256) returns()" -> "2251_tickRequiredLog(GameLib.Game) returns()"
+}subgraph cluster_406_AbstractBlockjackLogs {
+label = "AbstractBlockjackLogs"
+"406_recordLog(uint256,address,uint256,uint256,uint8,uint8) returns()" [label="recordLog(uint256,address,uint256,uint256,uint8,uint8) returns()"]
+"406_tickRequiredLog(uint256,address,uint256) returns()" [label="tickRequiredLog(uint256,address,uint256) returns()"]
+}subgraph cluster_solidity {
+label = "[Solidity]"
+}"2251_tickRequiredLog(GameLib.Game) returns()" -> "406_tickRequiredLog(uint256,address,uint256) returns()"
+"2251_recordEndedGame(uint256) returns()" -> "406_recordLog(uint256,address,uint256,uint256,uint8,uint8) returns()"
+}

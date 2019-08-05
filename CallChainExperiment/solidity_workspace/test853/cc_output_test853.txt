@@ -1,0 +1,30 @@
+Start Contract ArrayLib
+	To analyze：ArrayLib.insertInPlace(uint8[],uint8)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract DeckLib
+	To analyze：DeckLib.init(DeckLib.Deck,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：DeckLib.getCard(DeckLib.Deck,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：DeckLib.cardDescription(uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：DeckLib.cardEmojified(uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：DeckLib.cardFacevalue(uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：DeckLib.blackjackValue(uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：DeckLib.getRandomNumber(uint256,address,uint256,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract AbstractBlockjackLogs
+Start Contract GameLib
+	To analyze：GameLib.init(GameLib.Game,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：GameLib.tick(GameLib.Game)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：GameLib.needsTick(GameLib.Game)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：GameLib.checkGameResult(GameLib.Game)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：GameLib.checkGameContinues(GameLib.Game)
+		cfg分析安全，所以开始ICFG的分析

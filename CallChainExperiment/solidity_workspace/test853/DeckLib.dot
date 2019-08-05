@@ -1,0 +1,18 @@
+strict digraph {
+subgraph cluster_359_DeckLib {
+label = "DeckLib"
+"359_getCard(DeckLib.Deck,uint256) returns(uint8)" [label="getCard(DeckLib.Deck,uint256) returns(uint8)"]
+"359_cardFacevalue(uint8) returns(uint8)" [label="cardFacevalue(uint8) returns(uint8)"]
+"359_getRandomNumber(uint256,address,uint256,uint256,uint256) returns(uint256)" [label="getRandomNumber(uint256,address,uint256,uint256,uint256) returns(uint256)"]
+"359_cardDescription(uint8) returns(DeckLib.Suit,uint8)" [label="cardDescription(uint8) returns(DeckLib.Suit,uint8)"]
+"359_cardEmojified(uint8) returns(uint8,string)" [label="cardEmojified(uint8) returns(uint8,string)"]
+"359_blackjackValue(uint8) returns(uint8)" [label="blackjackValue(uint8) returns(uint8)"]
+"359_init(DeckLib.Deck,uint256) returns()" [label="init(DeckLib.Deck,uint256) returns()"]
+"359_cardDescription(uint8) returns(DeckLib.Suit,uint8)" -> "359_cardFacevalue(uint8) returns(uint8)"
+"359_cardEmojified(uint8) returns(uint8,string)" -> "359_cardDescription(uint8) returns(DeckLib.Suit,uint8)"
+"359_getCard(DeckLib.Deck,uint256) returns(uint8)" -> "359_getRandomNumber(uint256,address,uint256,uint256,uint256) returns(uint256)"
+"359_blackjackValue(uint8) returns(uint8)" -> "359_cardFacevalue(uint8) returns(uint8)"
+}subgraph cluster_solidity {
+label = "[Solidity]"
+}
+}
