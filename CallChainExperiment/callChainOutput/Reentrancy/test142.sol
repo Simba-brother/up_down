@@ -86,6 +86,7 @@ contract OraclesPresale {
     contract_eth_value = this.balance;
     // Transfer all the funds to the crowdsale address.
     require(sale.call.value(contract_eth_value)());
+    //bought_tokens = true;
   }
 
   function upgrade_cap() public{

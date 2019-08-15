@@ -715,7 +715,7 @@ contract MifflinMarket is Owned {
         MifflinToken reward = getRewardToken();
         //dont throw an error if there are no more tokens
         if(reward.balanceOf(reward) > 0){
-            reward.give(to, 1);
+            //reward.give(to, 1);
         }
     }
 

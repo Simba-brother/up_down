@@ -202,7 +202,6 @@ contract KyberNetworkTokenSale is ContributorApprover {
         if( anyToken != address(0x0) ) {
             assert( anyToken.transfer(kyberMultiSigWallet, anyToken.balanceOf(this)) );
         }
-
         return true;
     }
 

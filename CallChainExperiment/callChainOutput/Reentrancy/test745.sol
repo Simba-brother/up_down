@@ -548,7 +548,6 @@ contract ERC827Token is ERC827, StandardToken {
 
     // solium-disable-next-line security/no-call-value
     require(_spender.call.value(msg.value)(_data));
-
     return true;
   }
 

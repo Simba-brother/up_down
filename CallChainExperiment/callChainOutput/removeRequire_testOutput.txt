@@ -1,0 +1,2224 @@
+Start Contract WhaleGiveaway2
+	To analyze：WhaleGiveaway2.fallback()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：WhaleGiveaway2.redeem()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：WhaleGiveaway2.withdraw()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：WhaleGiveaway2.Command(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+./Reentrancy_FP\test1009.sol
+Start Contract OraclizeI
+Start Contract OraclizeAddrResolverI
+Start Contract usingOraclize
+	To analyze：usingOraclize.oraclize_setNetwork(uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.__callback(bytes32,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.__callback(bytes32,string,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_useCoupon(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_getPrice(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_getPrice(string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string[])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string[])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string[],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string[],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string[1])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string[1])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string[1],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string[1],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string[2])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string[2])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string[2],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string[2],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string[3])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string[3])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string[3],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string[3],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string[4])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string[4])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string[4],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string[4],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string[5])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string[5])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string[5],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string[5],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,bytes[])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,bytes[])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,bytes[],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,bytes[],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,bytes[1])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,bytes[1])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,bytes[1],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,bytes[1],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,bytes[2])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,bytes[2])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,bytes[2],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,bytes[2],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,bytes[3])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,bytes[3])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,bytes[3],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,bytes[3],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,bytes[4])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,bytes[4])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,bytes[4],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,bytes[4],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,bytes[5])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,bytes[5])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,bytes[5],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,bytes[5],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_cbAddress()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_setProof(bytes1)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_setCustomGasPrice(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_setConfig(bytes32)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_randomDS_getSessionPubKeyHash()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.getCodeSize(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.parseAddr(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.strCompare(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.indexOf(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.strConcat(string,string,string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.strConcat(string,string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.strConcat(string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.strConcat(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.parseInt(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.parseInt(string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.uint2str(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.stra2cbor(string[])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.ba2cbor(bytes[])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_setNetworkName(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_getNetworkName()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_newRandomDSQuery(uint256,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_randomDS_setCommitment(bytes32,bytes32)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.verifySig(bytes32,bytes,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_randomDS_proofVerify__sessionKeyValidity(bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_randomDS_proofVerify__returnCode(bytes32,string,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.matchBytes32Prefix(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_randomDS_proofVerify__main(bytes,bytes32,bytes,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.copyBytes(bytes,uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.safer_ecrecover(bytes32,uint8,bytes32,bytes32)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.ecrecovery(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract BananaGame
+	To analyze：BananaGame.oraclize_setNetwork(uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.__callback(bytes32,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.__callback(bytes32,string,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_useCoupon(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_getPrice(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_getPrice(string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string[])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string[])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string[],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string[],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string[1])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string[1])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string[1],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string[1],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string[2])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string[2])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string[2],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string[2],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string[3])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string[3])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string[3],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string[3],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string[4])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string[4])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string[4],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string[4],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string[5])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string[5])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,string[5],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,string[5],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,bytes[])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,bytes[])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,bytes[],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,bytes[],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,bytes[1])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,bytes[1])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,bytes[1],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,bytes[1],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,bytes[2])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,bytes[2])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,bytes[2],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,bytes[2],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,bytes[3])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,bytes[3])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,bytes[3],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,bytes[3],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,bytes[4])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,bytes[4])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,bytes[4],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,bytes[4],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,bytes[5])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,bytes[5])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(uint256,string,bytes[5],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_query(string,bytes[5],uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_cbAddress()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_setProof(bytes1)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_setCustomGasPrice(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_setConfig(bytes32)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_randomDS_getSessionPubKeyHash()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getCodeSize(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.parseAddr(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.strCompare(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.indexOf(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.strConcat(string,string,string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.strConcat(string,string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.strConcat(string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.strConcat(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.parseInt(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.parseInt(string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.uint2str(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.stra2cbor(string[])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.ba2cbor(bytes[])
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_setNetworkName(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_getNetworkName()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_newRandomDSQuery(uint256,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_randomDS_setCommitment(bytes32,bytes32)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.verifySig(bytes32,bytes,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_randomDS_proofVerify__sessionKeyValidity(bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_randomDS_proofVerify__returnCode(bytes32,string,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.matchBytes32Prefix(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.oraclize_randomDS_proofVerify__main(bytes,bytes32,bytes,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.copyBytes(bytes,uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.safer_ecrecover(bytes32,uint8,bytes32,bytes32)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.ecrecovery(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.BananaGame()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.fallback()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.bet()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.__callback(bytes32,string,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.safeSend(address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.safeSend(address,uint256)
+		contract: BananaGame | function: safeSend(address,uint256) | accessPermision: False | 锁/钱提前更新：False
+			path: ['entryPoint', 'value == 0', 'None', 'this.balance < value', 'None', '! (addr.call.gas(safeGas).value(value)())']
+[cfg_Reentrancy in] contract: BananaGame . function: safeSend(address,uint256) | Reentrancy_FP\test1169.sol#1220-1232
+	To analyze：BananaGame.setStopped()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.setStarted()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getBetNum()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getBet(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.changeOwnerAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.changeGasLimitOfSafeSend(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.changePercent(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.watchPercent()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.changeOraclizeProofType(bytes1)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.changeOraclizeConfig(bytes32)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getMinBetAmount()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getMaxBetAmount()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getPlayerBetResult(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getLossesShare(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getProfitShare(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getBalance(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.profitDistribution()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.divest()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.divest(address)
+		cfg分析安全，所以开始ICFG的分析
+		contract: BananaGame | function: divest(address) | accessPermision: False | 锁/钱提前更新：False
+			path：['None', 'profitDistribution()', 'currentID = investorIDs[currentInvestor]', 'amountToReturn = getBalance(currentInvestor)', '(invest >= investors[currentID].amountInvested)', 'invest -= investors[currentID].amountInvested', 'divestFeeAmount = (amountToReturn * divestFee) / 10000', 'amountToReturn -= divestFeeAmount', 'delete investors[currentID]', 'delete investorIDs[currentInvestor]', 'currentID != investorsNum', 'None', 'investorsNum --', 'safeSend(currentInvestor,amountToReturn)', 'safeSend(houseAddress,divestFeeAmount)', [['taint', 'safeSend(address,uint256)'], ['eth', 'safeSend(address,uint256)'], ['eth', 'safeSend(address,uint256)']]]
+			path：['None', 'profitDistribution()', 'currentID = investorIDs[currentInvestor]', 'amountToReturn = getBalance(currentInvestor)', '(invest >= investors[currentID].amountInvested)', 'invest -= investors[currentID].amountInvested', 'divestFeeAmount = (amountToReturn * divestFee) / 10000', 'amountToReturn -= divestFeeAmount', 'delete investors[currentID]', 'delete investorIDs[currentInvestor]', 'currentID != investorsNum', 'lastInvestor = investors[investorsNum]', 'investorIDs[lastInvestor.investorAddress] = currentID', 'investors[currentID] = lastInvestor', 'delete investors[investorsNum]', 'None', 'investorsNum --', 'safeSend(currentInvestor,amountToReturn)', 'safeSend(houseAddress,divestFeeAmount)', [['taint', 'safeSend(address,uint256)'], ['eth', 'safeSend(address,uint256)'], ['eth', 'safeSend(address,uint256)']]]
+[Icfg_Reentrancy in] contract: BananaGame . function: divest(address) | Reentrancy_FP\test1169.sol#1364-1389
+	To analyze：BananaGame.addInvest()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.addInvestorAtID(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getMinInvestment()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.searchSmallestInvestor()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.forceDivestOfAllInvestors()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.changeInvestNum(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.changeDivestFee(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getBankroll()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getStatus()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getInvestStatus(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.changeMinBet(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.changeORACLIZE_GAS_LIMIT(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getOraFee()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.getBetKey(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.changeHouseAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BananaGame.destroy()
+		cfg分析安全，所以开始ICFG的分析
+./Reentrancy_FP\test1169.sol
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == systemAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == systemAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress)
+require(bool)(msg.sender == cooAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+require(bool)(! paused)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == ceoAddress)
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(token != address(0))
+require(bool)(msg.sender == cooAddress || msg.sender == ceoAddress || msg.sender == cfoAddress)
+require(bool)(! paused)
+Start Contract SafeMath
+	To analyze：SafeMath.mul(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SafeMath.mul(int256,int256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SafeMath.div(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SafeMath.div(int256,int256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SafeMath.sub(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SafeMath.sub(int256,int256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SafeMath.add(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SafeMath.add(int256,int256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SafeMath.mod(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract ERC721
+Start Contract GeneScienceInterface
+Start Contract ERC20
+Start Contract SignatureVerifier
+	To analyze：SignatureVerifier.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SignatureVerifier.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract AccessControl
+	To analyze：AccessControl.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：AccessControl.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：AccessControl.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：AccessControl.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：AccessControl.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：AccessControl.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：AccessControl.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：AccessControl.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：AccessControl.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：AccessControl.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：AccessControl.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract PonyAccessControl
+	To analyze：PonyAccessControl.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAccessControl.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAccessControl.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAccessControl.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAccessControl.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAccessControl.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAccessControl.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAccessControl.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAccessControl.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAccessControl.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAccessControl.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAccessControl.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAccessControl.unpause()
+		cfg分析安全，所以开始ICFG的分析
+Start Contract PonyBase
+	To analyze：PonyBase.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase.unpause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase._transfer(address,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase._createPony(uint256,uint256,uint256,uint256,address,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBase.setSecondsPerBlock(uint256)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract PonyOwnership
+	To analyze：PonyOwnership.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.unpause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership._transfer(address,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership._createPony(uint256,uint256,uint256,uint256,address,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.setSecondsPerBlock(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.supportsInterface(bytes4)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership._owns(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership._approvedFor(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership._approve(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.balanceOf(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.transfer(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.approve(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.transferFrom(address,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.totalSupply()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.ownerOf(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.tokensOfOwner(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.transferPreSignedHashing(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.transferPreSigned(bytes,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.approvePreSignedHashing(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyOwnership.approvePreSigned(bytes,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract PonyBreeding
+	To analyze：PonyBreeding.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.unpause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding._transfer(address,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding._createPony(uint256,uint256,uint256,uint256,address,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.setSecondsPerBlock(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.supportsInterface(bytes4)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding._owns(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding._approvedFor(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding._approve(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.balanceOf(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.transfer(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.approve(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.transferFrom(address,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.totalSupply()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.ownerOf(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.tokensOfOwner(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.transferPreSignedHashing(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.transferPreSigned(bytes,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.approvePreSignedHashing(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.approvePreSigned(bytes,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.setGeneScienceAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding._isReadyToMate(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding._isMatingPermitted(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding._triggerCooldown(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding._triggerPregnant(PonyBase.Pony,uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.approveSiring(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.setAutoBirthFee(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding._isReadyToGiveBirth(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.isReadyToMate(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.isPregnant(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding._isValidMatingPair(PonyBase.Pony,uint256,PonyBase.Pony,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.canMateWithViaAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.canMateWith(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding._mateWith(uint256,uint256,uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.getIncubatorHashing(address,uint8,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.mateWithAuto(uint256,uint256,uint8,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.giveBirth(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyBreeding.setMatingSeason(bool)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract ClockAuctionBase
+	To analyze：ClockAuctionBase._owns(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuctionBase._escrow(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuctionBase._transfer(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuctionBase._addAuction(uint256,ClockAuctionBase.Auction)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuctionBase._bidEth(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuctionBase._bidDkl(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuctionBase._cancelAuction(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuctionBase._isOnAuction(ClockAuctionBase.Auction)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuctionBase._removeAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuctionBase._computeCut(uint256)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract Pausable
+	To analyze：Pausable.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Pausable.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Pausable.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Pausable.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Pausable.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Pausable.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Pausable.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Pausable.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Pausable.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Pausable.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Pausable.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Pausable.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Pausable.unpause()
+		cfg分析安全，所以开始ICFG的分析
+Start Contract ClockAuction
+	To analyze：ClockAuction._owns(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction._escrow(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction._transfer(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction._addAuction(uint256,ClockAuctionBase.Auction)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction._bidEth(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction._bidDkl(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction._cancelAuction(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction._isOnAuction(ClockAuctionBase.Auction)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction._removeAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction._computeCut(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.unpause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.constructor(address,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.cancelAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.cancelAuctionWhenPaused(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.getAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：ClockAuction.getCurrentPrice(uint256)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract SiringClockAuction
+	To analyze：SiringClockAuction._owns(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction._escrow(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction._transfer(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction._addAuction(uint256,ClockAuctionBase.Auction)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction._bidEth(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction._bidDkl(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction._cancelAuction(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction._isOnAuction(ClockAuctionBase.Auction)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction._removeAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction._computeCut(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.unpause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.constructor(address,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.cancelAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.cancelAuctionWhenPaused(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.getAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.getCurrentPrice(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.constructor(address,address,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.createEthAuction(uint256,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.createDklAuction(uint256,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.bidEth(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.bidDkl(uint256,uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.setCut(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.withdrawBalance()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SiringClockAuction.withdrawDklBalance()
+		cfg分析安全，所以开始ICFG的分析
+Start Contract SaleClockAuction
+	To analyze：SaleClockAuction._owns(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction._escrow(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction._transfer(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction._addAuction(uint256,ClockAuctionBase.Auction)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction._bidEth(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction._bidDkl(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction._cancelAuction(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction._isOnAuction(ClockAuctionBase.Auction)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction._removeAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction._computeCut(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.unpause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.constructor(address,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.cancelAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.cancelAuctionWhenPaused(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.getAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.getCurrentPrice(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.constructor(address,address,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.createEthAuction(uint256,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.createDklAuction(uint256,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.bidEth(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.bidDkl(uint256,uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.setCut(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.withdrawBalance()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：SaleClockAuction.withdrawDklBalance()
+		cfg分析安全，所以开始ICFG的分析
+Start Contract PonyAuction
+	To analyze：PonyAuction.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.unpause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction._transfer(address,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction._createPony(uint256,uint256,uint256,uint256,address,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.setSecondsPerBlock(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.supportsInterface(bytes4)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction._owns(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction._approvedFor(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction._approve(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.balanceOf(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.transfer(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.approve(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.transferFrom(address,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.totalSupply()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.ownerOf(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.tokensOfOwner(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.transferPreSignedHashing(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.transferPreSigned(bytes,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.approvePreSignedHashing(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.approvePreSigned(bytes,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.setGeneScienceAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction._isReadyToMate(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction._isMatingPermitted(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction._triggerCooldown(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction._triggerPregnant(PonyBase.Pony,uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.approveSiring(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.setAutoBirthFee(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction._isReadyToGiveBirth(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.isReadyToMate(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.isPregnant(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction._isValidMatingPair(PonyBase.Pony,uint256,PonyBase.Pony,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.canMateWithViaAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.canMateWith(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction._mateWith(uint256,uint256,uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.getIncubatorHashing(address,uint8,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.mateWithAuto(uint256,uint256,uint8,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.giveBirth(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.setMatingSeason(bool)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.setSaleAuctionAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.setSiringAuctionAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.setBiddingAuctionAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.createEthSaleAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.delegateDklSaleAuction(uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.delegateDklSiringAuction(uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.delegateDklBidAuction(uint256,uint256,bytes,uint256,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.createEthSiringAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.createDklSaleAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.createDklSiringAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.createEthBidAuction(uint256,uint256,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.createDeklaBidAuction(uint256,uint256,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.bidOnEthSiringAuction(uint256,uint256,uint8,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.bidOnDklSiringAuction(uint256,uint256,uint8,bytes,uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.withdrawAuctionBalances()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.withdrawAuctionDklBalance()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.setBiddingRate(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.setSaleRate(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyAuction.setSiringRate(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract BiddingAuctionBase
+	To analyze：BiddingAuctionBase._owns(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuctionBase._escrow(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuctionBase._transfer(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuctionBase._addAuction(uint256,BiddingAuctionBase.Auction)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuctionBase._cancelAuction(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuctionBase._removeAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuctionBase._computeCut(uint256)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract BiddingAuction
+	To analyze：BiddingAuction._owns(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction._escrow(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction._transfer(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction._addAuction(uint256,BiddingAuctionBase.Auction)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction._cancelAuction(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction._removeAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction._computeCut(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.unpause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.constructor(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.cancelAuctionHashing(uint256,uint64)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.cancelAuction(uint256,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.cancelAuctionWhenPaused(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.getAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingAuction.setSecondsPerBlock(uint256)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract BiddingWallet
+	To analyze：BiddingWallet.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.setSystemAddress(address,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.depositETH()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.depositDekla(uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.withdrawAmountHashing(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.withdrawEth(uint256,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.withdrawDekla(uint256,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.winBidEth(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.winBidDekla(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingWallet.fallback()
+		cfg分析安全，所以开始ICFG的分析
+Start Contract BiddingClockAuction
+	To analyze：BiddingClockAuction.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.setSystemAddress(address,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.depositETH()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.depositDekla(uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.withdrawAmountHashing(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.withdrawEth(uint256,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.withdrawDekla(uint256,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.winBidEth(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.winBidDekla(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.fallback()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction._owns(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction._escrow(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction._transfer(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction._addAuction(uint256,BiddingAuctionBase.Auction)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction._cancelAuction(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction._removeAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction._computeCut(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.unpause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.constructor(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.cancelAuctionHashing(uint256,uint64)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.cancelAuction(uint256,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.cancelAuctionWhenPaused(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.getAuction(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.setSecondsPerBlock(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.constructor(address,address,address,address,address,address,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.createETHAuction(uint256,address,uint16,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.setCut(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.createDklAuction(uint256,address,uint16,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.auctionEndHashing(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.auctionEthEnd(address,uint256,uint256,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.auctionDeklaEnd(address,uint256,uint256,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.withdrawBalance()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：BiddingClockAuction.withdrawDklBalance()
+		cfg分析安全，所以开始ICFG的分析
+Start Contract PonyMinting
+	To analyze：PonyMinting.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.unpause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting._transfer(address,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting._createPony(uint256,uint256,uint256,uint256,address,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.setSecondsPerBlock(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.supportsInterface(bytes4)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting._owns(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting._approvedFor(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting._approve(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.balanceOf(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.transfer(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.approve(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.transferFrom(address,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.totalSupply()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.ownerOf(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.tokensOfOwner(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.transferPreSignedHashing(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.transferPreSigned(bytes,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.approvePreSignedHashing(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.approvePreSigned(bytes,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.setGeneScienceAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting._isReadyToMate(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting._isMatingPermitted(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting._triggerCooldown(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting._triggerPregnant(PonyBase.Pony,uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.approveSiring(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.setAutoBirthFee(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting._isReadyToGiveBirth(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.isReadyToMate(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.isPregnant(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting._isValidMatingPair(PonyBase.Pony,uint256,PonyBase.Pony,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.canMateWithViaAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.canMateWith(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting._mateWith(uint256,uint256,uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.getIncubatorHashing(address,uint8,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.mateWithAuto(uint256,uint256,uint8,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.giveBirth(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.setMatingSeason(bool)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.setSaleAuctionAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.setSiringAuctionAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.setBiddingAuctionAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.createEthSaleAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.delegateDklSaleAuction(uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.delegateDklSiringAuction(uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.delegateDklBidAuction(uint256,uint256,bytes,uint256,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.createEthSiringAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.createDklSaleAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.createDklSiringAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.createEthBidAuction(uint256,uint256,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.createDeklaBidAuction(uint256,uint256,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.bidOnEthSiringAuction(uint256,uint256,uint8,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.bidOnDklSiringAuction(uint256,uint256,uint8,bytes,uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.withdrawAuctionBalances()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.withdrawAuctionDklBalance()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.setBiddingRate(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.setSaleRate(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.setSiringRate(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.createPromoPony(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyMinting.createGen0(uint256,uint256,uint16,bool)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract PonyUpgrade
+	To analyze：PonyUpgrade.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.unpause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade._transfer(address,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade._createPony(uint256,uint256,uint256,uint256,address,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.setSecondsPerBlock(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.supportsInterface(bytes4)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade._owns(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade._approvedFor(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade._approve(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.balanceOf(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.transfer(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.approve(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.transferFrom(address,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.totalSupply()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.ownerOf(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.tokensOfOwner(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.transferPreSignedHashing(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.transferPreSigned(bytes,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.approvePreSignedHashing(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.approvePreSigned(bytes,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.setGeneScienceAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade._isReadyToMate(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade._isMatingPermitted(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade._triggerCooldown(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade._triggerPregnant(PonyBase.Pony,uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.approveSiring(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.setAutoBirthFee(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade._isReadyToGiveBirth(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.isReadyToMate(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.isPregnant(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade._isValidMatingPair(PonyBase.Pony,uint256,PonyBase.Pony,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.canMateWithViaAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.canMateWith(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade._mateWith(uint256,uint256,uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.getIncubatorHashing(address,uint8,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.mateWithAuto(uint256,uint256,uint8,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.giveBirth(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.setMatingSeason(bool)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.setSaleAuctionAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.setSiringAuctionAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.setBiddingAuctionAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.createEthSaleAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.delegateDklSaleAuction(uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.delegateDklSiringAuction(uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.delegateDklBidAuction(uint256,uint256,bytes,uint256,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.createEthSiringAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.createDklSaleAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.createDklSiringAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.createEthBidAuction(uint256,uint256,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.createDeklaBidAuction(uint256,uint256,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.bidOnEthSiringAuction(uint256,uint256,uint8,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.bidOnDklSiringAuction(uint256,uint256,uint8,bytes,uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.withdrawAuctionBalances()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.withdrawAuctionDklBalance()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.setBiddingRate(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.setSaleRate(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.setSiringRate(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.createPromoPony(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.createGen0(uint256,uint256,uint16,bool)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.upgradePonyHashing(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyUpgrade.upgradePony(uint256,uint256,bytes)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract PonyCore
+	To analyze：PonyCore.splitSignature(bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.recover(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.signedByCLevel(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.signedBySystem(bytes32,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.getCEOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setCEO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.getCFOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setCFO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.getCOOHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setCOO(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.getNonces(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.pause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.unpause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore._transfer(address,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore._createPony(uint256,uint256,uint256,uint256,address,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setSecondsPerBlock(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.supportsInterface(bytes4)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore._owns(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore._approvedFor(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore._approve(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.balanceOf(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.transfer(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.approve(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.transferFrom(address,address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.totalSupply()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.ownerOf(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.tokensOfOwner(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.transferPreSignedHashing(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.transferPreSigned(bytes,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.approvePreSignedHashing(address,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.approvePreSigned(bytes,address,uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setGeneScienceAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore._isReadyToMate(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore._isMatingPermitted(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore._triggerCooldown(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore._triggerPregnant(PonyBase.Pony,uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.approveSiring(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setAutoBirthFee(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore._isReadyToGiveBirth(PonyBase.Pony)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.isReadyToMate(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.isPregnant(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore._isValidMatingPair(PonyBase.Pony,uint256,PonyBase.Pony,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.canMateWithViaAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.canMateWith(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore._mateWith(uint256,uint256,uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.getIncubatorHashing(address,uint8,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.mateWithAuto(uint256,uint256,uint8,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.giveBirth(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setMatingSeason(bool)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setSaleAuctionAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setSiringAuctionAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setBiddingAuctionAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.createEthSaleAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.delegateDklSaleAuction(uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.delegateDklSiringAuction(uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.delegateDklBidAuction(uint256,uint256,bytes,uint256,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.createEthSiringAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.createDklSaleAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.createDklSiringAuction(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.createEthBidAuction(uint256,uint256,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.createDeklaBidAuction(uint256,uint256,uint16)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.bidOnEthSiringAuction(uint256,uint256,uint8,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.bidOnDklSiringAuction(uint256,uint256,uint8,bytes,uint256,uint256,bytes,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.withdrawAuctionBalances()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.withdrawAuctionDklBalance()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setBiddingRate(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setSaleRate(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setSiringRate(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.createPromoPony(uint256,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.createGen0(uint256,uint256,uint16,bool)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.upgradePonyHashing(uint256,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.upgradePony(uint256,uint256,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.constructor(address,address,address,address,address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.getTokenAddressHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setTokenAddress(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.setNewAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.fallback()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.getPony(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.unpause()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.withdrawBalanceHashing(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.withdrawEthBalance(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：PonyCore.withdrawDeklaBalance(address,bytes)
+		cfg分析安全，所以开始ICFG的分析
+./Reentrancy_FP\test1204.sol
+Start Contract OraclizeI
+Start Contract OraclizeAddrResolverI
+Start Contract usingOraclize
+	To analyze：usingOraclize.oraclize_setNetwork(uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.__callback(bytes32,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.__callback(bytes32,string,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_getPrice(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_getPrice(string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(uint256,string,string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_query(string,string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_cbAddress()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_setProof(bytes1)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_setCustomGasPrice(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.oraclize_setConfig(bytes32)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.getCodeSize(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.parseAddr(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.strCompare(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.indexOf(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.strConcat(string,string,string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.strConcat(string,string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.strConcat(string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.strConcat(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.parseInt(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.parseInt(string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：usingOraclize.uint2str(uint256)
+		cfg分析安全，所以开始ICFG的分析
+Start Contract Dice
+	To analyze：Dice.oraclize_setNetwork(uint8)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.__callback(bytes32,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.__callback(bytes32,string,bytes)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_getPrice(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_getPrice(string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_query(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_query(uint256,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_query(uint256,string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_query(string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_query(string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_query(uint256,string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_query(uint256,string,string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_query(string,string,string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_cbAddress()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_setProof(bytes1)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_setCustomGasPrice(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.oraclize_setConfig(bytes32)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.getCodeSize(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.parseAddr(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.strCompare(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.indexOf(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.strConcat(string,string,string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.strConcat(string,string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.strConcat(string,string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.strConcat(string,string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.parseInt(string)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.parseInt(string,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.uint2str(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.Dice()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.getBankroll()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.getMinInvestment()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.getStatus()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.getBet(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.numBets()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.getMinBetAmount()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.getMaxBetAmount()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.getLossesShare(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.getProfitShare(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.getBalance(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.searchSmallestInvestor()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.changeOraclizeProofType(bytes1)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.changeOraclizeConfig(bytes32)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.safeSend(address,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.addInvestorAtID(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.profitDistribution()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.fallback()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.bet()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.__callback(bytes32,string,bytes)
+		cfg分析安全，所以开始ICFG的分析
+		contract: Dice | function: __callback(bytes32,string,bytes) | accessPermision: False | 锁/钱提前更新：False
+			path：['None', 'numberRolled = parseInt(result)', 'bets[myid].numberRolled = numberRolled', 'isWinningBet(bets[myid],numberRolled)', 'isLosingBet(bets[myid],numberRolled)', [['taint', 'isLosingBet(Dice.Bet,uint256)', 'safeSend(address,uint256)'], ['eth', 'isWinningBet(Dice.Bet,uint256)', 'safeSend(address,uint256)'], ['eth', 'isLosingBet(Dice.Bet,uint256)', 'safeSend(address,uint256)']]]
+[Icfg_Reentrancy in] contract: Dice . function: __callback(bytes32,string,bytes) | Reentrancy_FP\test1236.sol#730-742
+	To analyze：Dice.isWinningBet(Dice.Bet,uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.isLosingBet(Dice.Bet,uint256)
+		cfg分析安全，所以开始ICFG的分析
+		contract: Dice | function: isLosingBet(Dice.Bet,uint256) | accessPermision: True | publicCaller: True | 锁/钱提前更新：False
+			path：['None', 'LOG_BetLost(thisBet.playerAddress,numberRolled)', 'safeSend(thisBet.playerAddress,1)', '(investorsProfit + thisBet.amountBet < investorsProfit) || (investorsProfit + thisBet.amountBet < thisBet.amountBet) || (thisBet.amountBet == 1)', 'None', 'totalProfit = investorsProfit + (thisBet.amountBet - 1)', 'investorsProfit += (thisBet.amountBet - 1) * (10000 - houseEdge) / 10000', 'houseProfit = totalProfit - investorsProfit', 'safeSend(houseAddress,houseProfit)', [['taint', 'safeSend(address,uint256)'], ['eth', 'safeSend(address,uint256)'], ['eth', 'safeSend(address,uint256)']]]
+[Icfg_Reentrancy in] contract: Dice . function: isLosingBet(Dice.Bet,uint256) | Reentrancy_FP\test1236.sol#761-779
+	To analyze：Dice.increaseInvestment()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.newInvestor()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.divest()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.divest(address)
+		cfg分析安全，所以开始ICFG的分析
+		contract: Dice | function: divest(address) | accessPermision: True | publicCaller: True | 锁/钱提前更新：False
+			path：['None', 'profitDistribution()', 'currentID = investorIDs[currentInvestor]', 'amountToReturn = getBalance(currentInvestor)', '(invested >= investors[currentID].amountInvested)', 'invested -= investors[currentID].amountInvested', 'divestFeeAmount = (amountToReturn * divestFee) / 10000', 'amountToReturn -= divestFeeAmount', 'delete investors[currentID]', 'delete investorIDs[currentInvestor]', 'currentID != numInvestors', 'lastInvestor = investors[numInvestors]', 'investorIDs[lastInvestor.investorAddress] = currentID', 'investors[currentID] = lastInvestor', 'delete investors[numInvestors]', 'None', 'numInvestors --', 'safeSend(currentInvestor,amountToReturn)', 'safeSend(houseAddress,divestFeeAmount)', [['taint', 'safeSend(address,uint256)'], ['eth', 'safeSend(address,uint256)'], ['eth', 'safeSend(address,uint256)']]]
+			path：['None', 'profitDistribution()', 'currentID = investorIDs[currentInvestor]', 'amountToReturn = getBalance(currentInvestor)', '(invested >= investors[currentID].amountInvested)', 'invested -= investors[currentID].amountInvested', 'divestFeeAmount = (amountToReturn * divestFee) / 10000', 'amountToReturn -= divestFeeAmount', 'delete investors[currentID]', 'delete investorIDs[currentInvestor]', 'currentID != numInvestors', 'None', 'numInvestors --', 'safeSend(currentInvestor,amountToReturn)', 'safeSend(houseAddress,divestFeeAmount)', [['taint', 'safeSend(address,uint256)'], ['eth', 'safeSend(address,uint256)'], ['eth', 'safeSend(address,uint256)']]]
+[Icfg_Reentrancy in] contract: Dice . function: divest(address) | Reentrancy_FP\test1236.sol#820-856
+	To analyze：Dice.forceDivestOfAllInvestors()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.forceDivestOfOneInvestor(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.stopContract()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.resumeContract()
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.changeHouseAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.changeOwnerAddress(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.changeGasLimitOfSafeSend(uint256)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.voteEmergencyWithdrawal(bool)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.proposeEmergencyWithdrawal(address)
+		cfg分析安全，所以开始ICFG的分析
+	To analyze：Dice.executeEmergencyWithdrawal()
+		cfg分析安全，所以开始ICFG的分析
+./Reentrancy_FP\test1236.sol
